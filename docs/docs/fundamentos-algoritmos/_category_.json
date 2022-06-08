@@ -1,0 +1,8 @@
+{
+  "label": "Fundamentos de algoritmos",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Tips para asignatura Fundamentos de algorítmos, con ejemplos trabajando con el lenguaje Python. Los tips están subdivididos según el módulo al que corresponda."
+  }
+}

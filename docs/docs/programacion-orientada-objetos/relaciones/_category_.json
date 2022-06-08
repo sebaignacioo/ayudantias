@@ -1,0 +1,8 @@
+{
+  "label": "Relaciones",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Relaciones entre clases en Java. Herencia, polimorfismo, interfaces, etc."
+  }
+}

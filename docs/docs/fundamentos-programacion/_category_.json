@@ -1,0 +1,8 @@
+{
+  "label": "Fundamentos de programacion",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Tips para asignatura Fundamentos de programación, con ejemplos trabajando con el lenguaje C. Los tips están subdivididos según la unidad a la que corresponda."
+  }
+}

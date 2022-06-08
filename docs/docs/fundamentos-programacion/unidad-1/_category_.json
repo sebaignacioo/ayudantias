@@ -1,0 +1,8 @@
+{
+  "label": "Unidad 1",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Unidad 1 del curso. En esta unidad, se introducen los conceptos básicos de programación en el lenguaje C, típos de datos, etc."
+  }
+}

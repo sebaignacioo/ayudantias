@@ -1,0 +1,63 @@
+---
+sidebar_position: 5
+---
+
+# Extra: Proyecto
+
+Recursos y tips para el proyecto de POO.
+
+## Carpeta de Google Drive
+
+Presiona este botón: [![Google Drive](https://img.shields.io/badge/Ir%20a%20Google%20Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1R0ixUoNiPQdO9HNDEP4KUEpftJ36v9EG?usp=sharing) para abrir la carpeta de Google Drive de la ayudantia, con videos explicativos de los conceptos de la materia.
+
+## Videotips para Proyecto
+
+Aqui encontraras videotips preparados con conceptos de utilidad para la realizacion del proyecto:
+
+### Videos antiguos
+
+- [![YouTube](https://img.shields.io/badge/Ir%20a%20Lista%20de%20reproducción%20antigua-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/playlist?list=PL_RGeQcR-59S2tXmx_BtmenF2uQJ6tCgu)
+- [![Github](https://img.shields.io/badge/Repositorio%20ejemplo%20conexión%20MySQL-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sebaignacioo/EjemploMySQL-POO)
+
+### Proyecto "Películas"
+
+- [![YouTube](https://img.shields.io/badge/Ir%20a%20ista%20de%20reproducción-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=SPcGs2pNhGE&list=PL_RGeQcR-59TOh2xNzabK9O0lGAhSRW3V) [![Github](https://img.shields.io/badge/Ver%20repositorio%20en%20GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sebaignacioo/EjemploPeliculasPOO)
+  1. [![YouTube](https://img.shields.io/badge/Ver%20en%20YouTube-%23FF0000.svg?style=flat-square&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=SPcGs2pNhGE) Instalaciones y configuraciones básicas para trabajar con Java.
+  2. [![YouTube](https://img.shields.io/badge/Ver%20en%20YouTube-%23FF0000.svg?style=flat-square&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=zvLn6-LWbfo) Crear y modelar un nuevo proyecto en Netbeans.
+  3. [![YouTube](https://img.shields.io/badge/Ver%20en%20YouTube-%23FF0000.svg?style=flat-square&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=v2ILngJQFqo) Manejo de datos en proyecto (CSV y MySQL).
+
+## Tips y ejemplos para entregas de proyecto
+
+- [![Google Drive](https://img.shields.io/badge/Ir%20a%20Google%20Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/14h57pNINx54u40RuAjbCfnQLQyvPj0sV/view?usp=sharing) Ejemplo de entrega parcial 2.
+- [![Github](https://img.shields.io/badge/Ir%20a%20GitHub-%23121011.svg?style=flat-square&logo=github&logoColor=white)](https://github.com/sebaignacioo/proyecto-poo) Proyecto POO Ayudante (2° semestre de 2021).
+- [![Github](https://img.shields.io/badge/Ir%20a%20GitHub-%23121011.svg?style=flat-square&logo=github&logoColor=white)](https://github.com/sebaignacioo/reporte-final-poo) Reporte proyecto POO Ayudante (Latex) (2° semestre de 2021).
+  - [![Adobe PDF](https://img.shields.io/badge/Ver%20PDF-EC1C24.svg?style=flat-square&logo=Adobe%20Acrobat%20Reader&logoColor=white)](https://github.com/sebaignacioo/reporte-final-poo/blob/master/main.pdf) Reporte proyecto POO Ayudante (Latex) (2° semestre de 2021).
+
+## Tips varios para programar proyecto
+
+- Para importar la librería externa de conexión con MySQL, podemos usar Maven y el archivo ´pom.xml´ que se encuentra en la raíz del proyecto. En dicho archivo, ponemos lo siguiente (debajo de versión):
+
+  ```xml
+  <?xml version="1.0" encoding="UTF-8"?>
+  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+      <modelVersion>4.0.0</modelVersion>
+      <groupId>app</groupId>
+      <artifactId>EjemploPeliculasPOO</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <!-- Aquí se agrega la dependencia: -->
+      <dependencies>
+          <dependency>
+              <groupId>mysql</groupId>
+              <artifactId>mysql-connector-java</artifactId>
+              <version>8.0.28</version>
+          </dependency>
+      </dependencies>
+      <!-- FIN -->
+      <properties>
+          <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+          <maven.compiler.source>17</maven.compiler.source>
+          <maven.compiler.target>17</maven.compiler.target>
+          <exec.mainClass>app.EjemploPeliculasPOO</exec.mainClass>
+      </properties>
+  </project>
+  ```

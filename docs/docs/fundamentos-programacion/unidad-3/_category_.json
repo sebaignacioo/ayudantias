@@ -1,0 +1,8 @@
+{
+  "label": "Unidad 3",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Desarrollo de programas en C utilizando estructuras de datos estáticas y dinámicas, utilizando también técnicas de ordenamiento y búsqueda."
+  }
+}
