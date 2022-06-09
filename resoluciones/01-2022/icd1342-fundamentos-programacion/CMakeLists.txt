@@ -91,3 +91,13 @@ add_executable(U3Ay7Ej3
         3.2.-vectores-dinamicos/ejercicio3.c)
 add_executable(U3Ay7Ej4
         3.2.-vectores-dinamicos/ejercicio4.c)
+
+# Ayudantía 8
+add_executable(U3Ay8Ej1a
+        3.3.-tarea-2/ejercicio1a.c)
+add_executable(U3Ay8Ej1b
+        3.3.-tarea-2/ejercicio1b.c)
+add_executable(U3Ay8Ej2
+        3.3.-tarea-2/ejercicio2.c)
+add_executable(U3Ay8Ej3
+        3.3.-tarea-2/ejercicio3.c)
