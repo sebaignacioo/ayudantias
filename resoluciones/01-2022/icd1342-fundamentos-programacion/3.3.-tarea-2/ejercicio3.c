@@ -62,7 +62,7 @@ int procesarTablero(int ancho, int alto) {
     int cont = 0;
     char **tablero = reservarMemoria(ancho + 2, alto + 2);
     leerTablero(tablero, ancho, alto);
-    // escribirTablero(tablero, ancho + 2, alto + 2);
+    escribirTablero(tablero, ancho + 2, alto + 2);
 
     for (int i = 1; i <= alto; i++) {
         for (int j = 1; j <= ancho; j++) {
