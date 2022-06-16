@@ -34,7 +34,6 @@ public class LoginFrame extends javax.swing.JFrame {
         btnLogin = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(300, 250));
         setMinimumSize(new java.awt.Dimension(300, 250));
         setSize(new java.awt.Dimension(300, 250));
 
@@ -46,6 +45,20 @@ public class LoginFrame extends javax.swing.JFrame {
         lblPass.setText("Contraseña:");
 
         btnLogin.setText("Iniciar sesión");
+        btnLogin.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+                btnLoginAncestorMoved(evt);
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+        });
+        btnLogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLoginActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -91,6 +104,10 @@ public class LoginFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnLoginAncestorMoved(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_btnLoginAncestorMoved
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnLoginAncestorMoved
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLogin;
