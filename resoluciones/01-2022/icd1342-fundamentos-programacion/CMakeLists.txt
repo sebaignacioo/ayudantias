@@ -101,3 +101,11 @@ add_executable(U3Ay8Ej2
         3.3.-tarea-2/ejercicio2.c)
 add_executable(U3Ay8Ej3
         3.3.-tarea-2/ejercicio3.c)
+
+# Ayudantía 9
+add_executable(U4Ay9Ejemplo
+        4.1.-ordenamiento/ejemplo.c)
+add_executable(U4Ay9Ej1
+        4.1.-ordenamiento/ejercicio1.c)
+add_executable(U4Ay9Ej2
+        4.1.-ordenamiento/ejercicio2.c)
