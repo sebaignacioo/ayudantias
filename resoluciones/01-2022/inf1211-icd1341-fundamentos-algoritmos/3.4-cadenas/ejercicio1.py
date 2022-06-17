@@ -2,7 +2,7 @@ def procesarPalabra(palabra):
     print(f'{palabra} {"SI" if esPentavolica(palabra) else "NO"} es pentavocálica')
 
 def esPentavolica(palabra):
-    vocales = ['a', 'e', 'i', 'o', 'u']
+    vocales = 'aeiou'
     minusc = palabra.lower()
     for voc in vocales:
         if (voc not in minusc) or (minusc.count(voc) > 1):
