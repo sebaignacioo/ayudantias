@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Ejercicio 4" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="poo.ayudantia.ejcat2.ej4.App" />
+    <module name="EjerciciosCatedra2" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
