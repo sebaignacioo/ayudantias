@@ -57,7 +57,7 @@ int ordenar(const void *a, const void *b) {
     if (ptrA->nota != ptrB->nota)
         return (int) (ptrB->nota - ptrA->nota);
     else
-        return ptrB->rut - ptrA->rut;
+        return ptrA->rut - ptrB->rut;
 }
 
 void imprimir(estudiante *estudiantes, int cant) {
