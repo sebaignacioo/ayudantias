@@ -115,3 +115,9 @@ add_executable(U4Ay9Ej1
         4.1.-ordenamiento/ejercicio1.c)
 add_executable(U4Ay9Ej2
         4.1.-ordenamiento/ejercicio2.c)
+
+# Ayudantía 10
+add_executable(U4Ay10Ej1
+        4.2.-preparacion-tarea-3/ejercicio1.c)
+add_executable(U4Ay10Ej2
+        4.2.-preparacion-tarea-3/ejercicio2.c)
