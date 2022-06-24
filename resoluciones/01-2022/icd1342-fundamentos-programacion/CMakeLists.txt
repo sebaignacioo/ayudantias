@@ -102,6 +102,12 @@ add_executable(U3Ay8Ej2
 add_executable(U3Ay8Ej3
         3.3.-tarea-2/ejercicio3.c)
 
+# Tarea 3
+add_executable(U3T3Ej1
+        pruebas-tareas/t3ej1.c)
+add_executable(U3T3Ej2
+        pruebas-tareas/t3ej2.c)
+
 # Ayudantía 9
 add_executable(U4Ay9Ejemplo
         4.1.-ordenamiento/ejemplo.c)
